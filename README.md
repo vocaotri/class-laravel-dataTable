@@ -2,7 +2,7 @@
 PHP 8 vs Laravel 8 class data table full option model.
 ## How to use
 <code>
-  use App\Enums\UserDelete; </br>
+  use App\Enums\UserDelete; \n
   use App\LaravelDatatableBackEnd; </br>
   Class ... </br>
   public function ajaxMetal(Request $request): \Illuminate\Http\Response|\Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\Routing\ResponseFactory </br>
