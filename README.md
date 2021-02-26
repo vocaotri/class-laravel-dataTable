@@ -2,6 +2,7 @@
 PHP 8 vs Laravel 8 class data table full option model.
 ## How to use
 <code>
+  ```
   use App\Enums\UserDelete;<br/>
   use App\LaravelDatatableBackEnd;<br/>
   Class ... </br>
@@ -33,4 +34,5 @@ PHP 8 vs Laravel 8 class data table full option model.
      return response($response);
   }
   ...
+  ```
 </code>
