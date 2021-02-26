@@ -5,7 +5,7 @@ PHP 8 vs Laravel 8 class data table full option model.
   use App\Enums\UserDelete;
   use App\LaravelDatatableBackEnd;
   Class ...
-  public function ajaxMetal(Request $request): \Illuminate\Http\Response|\Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\Routing\ResponseFactory
+  public function ajaxUserHobbies(Request $request): \Illuminate\Http\Response|\Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\Routing\ResponseFactory
   {
     if (!$request->ajax())
             abort(404);
@@ -27,7 +27,7 @@ PHP 8 vs Laravel 8 class data table full option model.
             ['delete_flg' => UserDelete::NotDelete],
             ['first_name','last_name],
             ['name','first_name'],
-            ['hoppies']
+            ['hobbies']
         );
      $response = $data->outObject();
      return response($response);
